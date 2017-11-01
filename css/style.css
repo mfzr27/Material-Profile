@@ -1,0 +1,86 @@
+/*---home---*/
+.homeCard{
+	text-align: center;
+	margin: auto;
+	margin-top: 10%;
+}
+.homeCard img{
+	border-radius: 50%; 
+	width: 200px;
+}
+.homeCard .btn {
+	background-color: #212121;
+}
+/*---home---*/
+/*---projects---*/
+.projectsCard{
+	text-align: center;
+	margin: auto;
+	margin-top: 10%;
+}
+/*---projects---*/
+/*---blog---*/
+.blogCard{
+	text-align: center;
+	margin: auto;
+	margin-top: 10%;
+}
+/*---blog---*/
+/*---contact---*/
+.contactCard{
+	text-align: center;
+	margin: auto;
+	margin-top: 10%;
+}
+/* label color */
+.input-field label {
+    color: #212121;
+}
+/* label focus color */
+.contactCard .input-field input[type=text]:focus + label {
+    color: #212121;
+}
+/* label underline focus color */
+.contactCard .input-field input[type=text]:focus {
+    border-bottom: 1px solid #212121;
+    box-shadow: 0 1px 0 0 #212121;
+}
+/* valid color */
+.contactCard .input-field input[type=text].valid {
+    border-bottom: 1px solid #212121;
+    box-shadow: 0 1px 0 0 #212121;
+}
+/* invalid color */
+.contactCard .input-field input[type=text].invalid {
+    border-bottom: 1px solid #212121;
+    box-shadow: 0 1px 0 0 #212121;
+}
+/* label focus color */
+.contactCard .input-field input[type=email]:focus + label {
+    color: #212121;
+}
+.contactCard .input-field input[type=email]:focus {
+    border-bottom: 1px solid #212121;
+    box-shadow: 0 1px 0 0 #212121;
+}
+/* valid color */
+.contactCard .input-field input[type=email].valid {
+    border-bottom: 1px solid #212121;
+    box-shadow: 0 1px 0 0 #212121;
+}
+/* invalid color */
+.contactCard .input-field input[type=email].invalid {
+    border-bottom: 1px solid #212121;
+    box-shadow: 0 1px 0 0 #212121;
+}
+
+.contactCard .input-field textarea:focus + label {
+	color: #212121;
+}
+.contactCard .input-field textarea:focus {
+	border-bottom: 1px solid #212121;
+    box-shadow: 0 1px 0 0 #212121;	
+}
+.contactCard .btn {
+	background-color: #212121;
+}

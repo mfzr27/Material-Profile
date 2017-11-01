@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="mfzr27">
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>my.profile</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-4">
+        <a href="#" class="brand-logo" class="waves-effect waves-light">Your Name</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a class="waves-effect waves-light" href="#/home">Home</a>
+          </li>
+          <li>
+            <a class="waves-effect waves-light" href="#/projects">Projects</a>
+          </li>
+          <li>
+            <a class="waves-effect waves-light" href="#/blog">Blog</a>
+          </li>
+          <li>
+            <a class="waves-effect waves-light" href="#/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>  
+  </div>	
+	<ng-view></ng-view>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+  	<script type="text/javascript" src="lib/angular-route.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
