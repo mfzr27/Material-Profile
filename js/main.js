@@ -1,4 +1,4 @@
-var app = angular.module('mfzr27', ['ngRoute'])
+var app = angular.module('mfzr27', ['ngRoute', 'ngAnimate']);
 
 app.config(function($routeProvider, $locationProvider, ){
 
@@ -14,5 +14,7 @@ app.config(function($routeProvider, $locationProvider, ){
 			templateUrl:'contact.html'
 		})
 		.otherwise('/home');
-})
 
+	$locationProvider.hashPrefix('');
+
+});
